@@ -1,0 +1,129 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <navbar id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#project-title">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </navbar>
+
+    <section id="welcome-section">
+        <h1>Hey I am Pablo</h1>
+        <p>a full stack developer</p>
+    </section>
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">These are some of my projects</h2>
+
+        <div class="projects-grid">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span> Tribute Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span> Random Quote Machine
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span> JavaScript Calculator
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span> Map Data Across the Globe
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" alt="project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span> Wikipedia Viewer
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" alt="project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span> Tic Tac Toe Game
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+        </div>
+        <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all <i style="color: white;" class="fa fa-chevron-right"></i></a>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <section id="contact-section">
+        <div id="contact-section-header">
+            <h1>Let's work together...</h1>
+            <p>How do you take your coffe?</p>
+        </div>
+        <div id="contact-links">
+            <a href="https://www.facebook.com/freecodecamp" alt="facebook profile" target="_blank" class="btn">
+                <i class="fa fa-facebook-square"></i>Facebook
+            </a>
+            <a id="profile-link" href="https://github.com/freecodecamp" alt="github profile" target="_blank" class="btn">
+                <i class="fa fa-github"></i>Github
+            </a>
+            <a href="https://twitter.com/freecodecamp?lang=es" alt="twitter profile" target="_blank" class="btn">
+                <i class="fa fa-twitter"></i>Twitter
+            </a>
+            <a href="mailto:example@example.com" alt="email sending" class="btn">
+                <i class="fa fa-at"></i>Send a mail
+            </a>
+            <a href="tel:555-555-5555" alt="phone calling" class="btn">
+                <i class="fa fa-mobile"></i>Call me
+            </a>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>**This is just a fake portfolio. All the projects and contacts details given are not real.</p>
+        <p>&copy; Create for freeCodeCamp<i class="fab fa-free-code-camp"></i></p>
+    </footer>
+
+
+</body>
+
+</html>
